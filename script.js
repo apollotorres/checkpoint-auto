@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const service = serviceType.value;
     const observation = clientObservation.value.trim();
 
-    let message = `Olá Leo! Me chamo ${name}. Gostaria de solicitar um orçamento para o meu ${car}.\n\n`;
+    let message = `Olá! Me chamo ${name}. Gostaria de solicitar um orçamento para o meu ${car}.\n\n`;
     message += `*Serviço:* ${service}\n`;
     if (observation) {
       message += `*Detalhes / Sintomas:* ${observation}\n`;
