@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkpoint Auto | Mecânica Especializada em Osasco - Diagnóstico e Revisão</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Oficina mecânica especializada em Osasco - SP. Injeção eletrônica, diagnóstico computadorizado com scanner, freios, suspensão e revisão preventiva completa. Agende pelo WhatsApp.">
+  <meta name="keywords" content="oficina mecanica osasco, checkpoint auto, injecao eletronica osasco, scanner automotivo, revisao preventiva, freios e suspensao">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#0a0e17">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Checkpoint Auto | Mecânica Especializada em Osasco">
+  <meta property="og:description" content="Diagnóstico de alta precisão, injeção eletrônica, freios e suspensão com total transparência e pontualidade.">
+  <meta property="og:image" content="assets/images/hero.jpg">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ==========================================================================
+       Header & Navigation
+       ========================================================================== -->
+  <header class="site-header" id="mainHeader">
+    <div class="container header-container">
+      <a href="#inicio" class="logo" id="headerLogo" aria-label="Checkpoint Auto Início">
+        <div class="logo-badge">
+          <!-- Wrench / Check SVG Icon -->
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="m15 5 4 4"></path>
+            <path d="M13 7 8.7 2.7a2.41 2.41 0 0 0-3.4 0L2.7 5.3a2.41 2.41 0 0 0 0 3.4L7 13"></path>
+            <path d="m8 6 2-2"></path>
+            <path d="m2 22 5.5-1.5L21.1 6.9a2.4 2.4 0 0 0 0-3.4l-.6-.6a2.4 2.4 0 0 0-3.4 0L3.5 16.5 2 22z"></path>
+          </svg>
+        </div>
+        <div class="logo-text">
+          CHECKPOINT<span>AUTO</span>
+          <small>Centro Automotivo</small>
+        </div>
+      </a>
+
+      <nav aria-label="Navegação Principal">
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#inicio" class="nav-link active">Início</a></li>
+          <li><a href="#sobre" class="nav-link">Sobre</a></li>
+          <li><a href="#servicos" class="nav-link">Serviços</a></li>
+          <li><a href="#galeria" class="nav-link">Oficina</a></li>
+          <li><a href="#agendamento" class="nav-link">Simular Orçamento</a></li>
+          <li><a href="#contato" class="nav-link">Contato</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a href="https://wa.me/5511959183854?text=Ol%C3%A1%20Leo!%20Vim%20pelo%20site%20da%20Checkpoint%20Auto%20e%20gostaria%20de%20tirar%20uma%20d%C3%BAvida." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp" id="btnHeaderWhatsApp">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.274.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.099.824zm-3.423-14.416c-6.627 0-12 5.373-12 12 0 2.179.587 4.223 1.614 5.986l-1.614 5.842 6.007-1.576c1.701.929 3.649 1.458 5.723 1.458 6.627 0 12-5.373 12-12s-5.373-12-12-12z"/>
+          </svg>
+          <span>Agendar no WhatsApp</span>
+        </a>
+
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Abrir menu de navegação">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==========================================================================
+         Hero Section
+         ========================================================================== -->
+    <section class="hero-section" id="inicio">
+      <div class="hero-glow"></div>
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <div class="hero-badge-pulse"></div>
+            <span>Mecânica Especializada em Osasco - SP</span>
+          </div>
+
+          <h1 class="hero-title">
+            Diagnóstico de precisão e <span class="highlight">cuidado de mestre</span> para o seu carro.
+          </h1>
+
+          <p class="hero-subtitle">
+            Especialistas em injeção eletrônica, scanner computadorizado, freios ABS e suspensão. Transparência de verdade, orçamento detalhado e peças de primeira linha para sua segurança rodar sem surpresas.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="https://wa.me/5511959183854?text=Ol%C3%A1%20Leo!%20Vim%20pelo%20site%20da%20Checkpoint%20Auto%20e%20gostaria%20de%20agendar%20uma%20revis%C3%A3o%20para%20meu%20carro." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp" id="btnHeroWhatsApp">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.274.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.099.824zm-3.423-14.416c-6.627 0-12 5.373-12 12 0 2.179.587 4.223 1.614 5.986l-1.614 5.842 6.007-1.576c1.701.929 3.649 1.458 5.723 1.458 6.627 0 12-5.373 12-12s-5.373-12-12-12z"/>
+              </svg>
+              <span>Falar com o Leo pelo WhatsApp</span>
+            </a>
+
+            <a href="#servicos" class="btn btn-secondary" id="btnHeroServicos">
+              <span>Ver Serviços & Especialidades</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M5 12h14"></path>
+                <path d="m12 5 7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+
+          <div class="hero-metrics">
+            <div class="metric-item">
+              <div class="metric-num">+10<span>anos</span></div>
+              <div class="metric-label">Experiência em Motores</div>
+            </div>
+            <div class="metric-item">
+              <div class="metric-num">100<span>%</span></div>
+              <div class="metric-label">Transparência nos Laudos</div>
+            </div>
+            <div class="metric-item">
+              <div class="metric-num">4.9<span>★</span></div>
+              <div class="metric-label">Avaliação dos Clientes</div>
+            </div>
+            <div class="metric-item">
+              <div class="metric-num">GDI<span>+</span></div>
+              <div class="metric-label">Injeção Direta & Convencional</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         About Section
+         ========================================================================== -->
+    <section class="section" id="sobre">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-visual">
+            <img src="assets/images/oficina.jpg" alt="Mecânico responsável Checkpoint Auto em Osasco" class="about-img-main" loading="lazy">
+            <div class="about-badge-floating">
+              <div class="about-badge-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                </svg>
+              </div>
+              <div class="about-badge-text">
+                <strong>Garantia & Procedência</strong>
+                <span>Peças originais e laudo técnico</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-text">
+            <span class="section-tag">Conheça a Checkpoint Auto</span>
+            <h3>Compromisso com quem depende do carro todos os dias.</h3>
+            <p>
+              Na <strong>Checkpoint Auto</strong>, comandada pelo mecânico especialista <strong>Leo</strong>, acreditamos que manutenção automotiva não é só trocar peças — é diagnosticar com precisão milimétrica para que você nunca pague por reparos desnecessários.
+            </p>
+            <p>
+              Nossa oficina em <strong>Osasco - SP</strong> conta com tecnologia de ponta em scanners automotivos, bancada de teste para bicos injetores e ferramental de precisão para atender desde veículos populares até modelos de alta performance.
+            </p>
+
+            <div class="about-pillars">
+              <div class="pillar-item">
+                <h4>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                  </svg>
+                  Diagnóstico Honesto
+                </h4>
+                <p>Explicamos visualmente o problema do seu carro antes de emitir qualquer orçamento.</p>
+              </div>
+
+              <div class="pillar-item">
+                <h4>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                  </svg>
+                  Pontualidade na Entrega
+                </h4>
+                <p>Respeitamos seu tempo e seu planejamento diário com prazos cumpridos à risca.</p>
+              </div>
+            </div>
+
+            <a href="https://wa.me/5511959183854?text=Ol%C3%A1%20Leo!%20Gostaria%20de%20conhecer%20a%20oficina%20e%20fazer%20um%20diagn%C3%B3stico." target="_blank" rel="noopener noreferrer" class="btn btn-primary" id="btnAboutContato">
+              <span>Conversar com a Equipe</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="7" y1="17" x2="17" y2="7"></line>
+                <polyline points="7 7 17 7 17 17"></polyline>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Services Section
+         ========================================================================== -->
+    <section class="section" id="servicos">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Nossas Especialidades</span>
+          <h2 class="section-title">Serviços executados com padrão de fábrica</h2>
+          <p class="section-desc">Cuidado técnico de alto nível para manter a dirigibilidade, economia de combustível e a segurança da sua família.</p>
+        </div>
+
+        <div class="services-grid">
+          <!-- Card 1 -->
+          <article class="service-card" id="servico-scanner">
+            <div class="service-icon">
+              <!-- Scanner / Chip Icon -->
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="4" y="4" width="16" height="16" rx="2"></rect>
+                <rect x="9" y="9" width="6" height="6"></rect>
+                <path d="M9 1v3M15 1v3M9 20v3M15 20v3M20 9h3M20 14h3M1 9h3M1 14h3"></path>
+              </svg>
+            </div>
+            <h3 class="service-title">Diagnóstico Computadorizado</h3>
+            <p class="service-desc">
+              Leitura em tempo real de falhas na injeção, sensores, atuadores e módulos eletrônicos. Identificamos a raiz exata do problema sem testes aleatórios.
+            </p>
+            <ul class="service-features">
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Scanner automotivo atualizado
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Apagamento de códigos de falha (DTC)
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Parametrização e telemetria ao vivo
+              </li>
+            </ul>
+            <div class="service-action">
+              <a href="https://wa.me/5511959183854?text=Ol%C3%A1%20Leo!%20Luz%20da%20inje%C3%A7%C3%A3o%20acendeu%20no%20meu%20carro,%20preciso%20de%20um%20diagn%C3%B3stico%20com%20scanner." target="_blank" rel="noopener noreferrer" class="service-link">
+                Cotar Diagnóstico <span>&rarr;</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="service-card" id="servico-injecao">
+            <div class="service-icon">
+              <!-- Fuel / Injector Icon -->
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"></path>
+              </svg>
+            </div>
+            <h3 class="service-title">Injeção Eletrônica & Bicos GDI</h3>
+            <p class="service-desc">
+              Limpeza por ultrassom, equalização de vazão, teste de estanqueidade e regulagem precisa para restaurar a potência e diminuir consumo.
+            </p>
+            <ul class="service-features">
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Especialistas em injeção direta (GDI/TSI)
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Troca de reparos e filtros internos
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Descarbonização de corpo de borboleta (TBI)
+              </li>
+            </ul>
+            <div class="service-action">
+              <a href="https://wa.me/5511959183854?text=Ol%C3%A1%20Leo!%20Gostaria%20de%20fazer%20limpeza%20de%20bicos%20e%20revis%C3%A3o%20da%20inje%C3%A7%C3%A3o%20eletr%C3%B4nica." target="_blank" rel="noopener noreferrer" class="service-link">
+                Cotar Injeção <span>&rarr;</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="service-card" id="servico-freios">
+            <div class="service-icon">
+              <!-- Disc Brake Icon -->
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <circle cx="12" cy="12" r="3"></circle>
+                <path d="M12 2a10 10 0 0 1 10 10"></path>
+              </svg>
+            </div>
+            <h3 class="service-title">Sistema de Freios & ABS</h3>
+            <p class="service-desc">
+              Sua segurança não admite improvisos. Substituição de pastilhas cerâmicas, discos de freio, cilindros, fluido DOT 4/5.1 e sangria computadorizada.
+            </p>
+            <ul class="service-features">
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Discos ventilados e pastilhas de alta durabilidade
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Medição de espessura com micrômetro
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Revisão de freio de estacionamento
+              </li>
+            </ul>
+            <div class="service-action">
+              <a href="https://wa.me/5511959183854?text=Ol%C3%A1%20Leo!%20Meu%20carro%20est%C3%A1%20com%20ru%C3%ADdo%20ao%20frear,%20quero%20revisar%20pastilhas%20e%20discos." target="_blank" rel="noopener noreferrer" class="service-link">
+                Cotar Freios <span>&rarr;</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Card 4 -->
+          <article class="service-card" id="servico-suspensao">
+            <div class="service-icon">
+              <!-- Shock Absorber / Spring Icon -->
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M10 2v4M14 2v4M8 6h8M8 18h8M10 18v4M14 18v4M9 9h6M9 12h6M9 15h6"></path>
+              </svg>
+            </div>
+            <h3 class="service-title">Suspensão & Direção</h3>
+            <p class="service-desc">
+              Elimine ruídos em buracos e garanta estabilidade em curvas. Troca de amortecedores, batentes, bandejas, buchas de PU ou borracha e pivôs.
+            </p>
+            <ul class="service-features">
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Amortecedores com garantia de procedência
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Caixa de direção hidráulica e elétrica
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Inspeção de folgas e barra estabilizadora
+              </li>
+            </ul>
+            <div class="service-action">
+              <a href="https://wa.me/5511959183854?text=Ol%C3%A1%20Leo!%20Gostaria%20de%20revisar%20a%20suspens%C3%A3o%20do%20meu%20carro." target="_blank" rel="noopener noreferrer" class="service-link">
+                Cotar Suspensão <span>&rarr;</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Card 5 -->
+          <article class="service-card" id="servico-oleo">
+            <div class="service-icon">
+              <!-- Oil Drop Icon -->
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"></path>
+              </svg>
+            </div>
+            <h3 class="service-title">Troca de Óleo & Filtros</h3>
+            <p class="service-desc">
+              Lubrificantes 100% sintéticos atendendo às rigorosas normas das montadoras (API/ACEA), além de filtro de óleo, combustível, ar do motor e cabine.
+            </p>
+            <ul class="service-features">
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Viscosidade exata indicada no manual
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Higienização do ar-condicionado inclusa
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Etiqueta técnica de controle de km
+              </li>
+            </ul>
+            <div class="service-action">
+              <a href="https://wa.me/5511959183854?text=Ol%C3%A1%20Leo!%20Gostaria%20de%20trocar%20o%20%C3%B3leo%20e%20filtros%20do%20meu%20carro." target="_blank" rel="noopener noreferrer" class="service-link">
+                Cotar Troca de Óleo <span>&rarr;</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Card 6 -->
+          <article class="service-card" id="servico-revisao">
+            <div class="service-icon">
+              <!-- Clipboard Checklist Icon -->
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path>
+                <rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect>
+                <path d="M9 12l2 2 4-4"></path>
+              </svg>
+            </div>
+            <h3 class="service-title">Revisão Preventiva & Check-up</h3>
+            <p class="service-desc">
+              Mais de 40 itens essenciais inspecionados antes de viagens ou na revisão periódica: correias, velas de ignição, arrefecimento e bateria.
+            </p>
+            <ul class="service-features">
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Teste de densidade do fluido de radiador
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Checagem do estado de carga e alternador
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Relatório com fotos enviado no WhatsApp
+              </li>
+            </ul>
+            <div class="service-action">
+              <a href="https://wa.me/5511959183854?text=Ol%C3%A1%20Leo!%20Vou%20viajar%20e%20preciso%20fazer%20um%20check-up%20preventivo%20no%20meu%20carro." target="_blank" rel="noopener noreferrer" class="service-link">
+                Agendar Check-up <span>&rarr;</span>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Process / How We Work Section
+         ========================================================================== -->
+    <section class="section" style="background: rgba(13, 18, 30, 0.4);">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Processo Transparente</span>
+          <h2 class="section-title">Como cuidamos do seu veículo do início ao fim</h2>
+          <p class="section-desc">Sem letra miúda, sem trocar peças boas. Você acompanha cada etapa pelo WhatsApp.</p>
+        </div>
+
+        <div class="process-grid">
+          <div class="process-step">
+            <div class="step-num">01</div>
+            <h4 class="step-title">Recepção & Escuta</h4>
+            <p class="step-desc">Você conversa direto com quem entende. Ouvem-se os sintomas, ruídos e histórico do carro.</p>
+          </div>
+
+          <div class="process-step">
+            <div class="step-num">02</div>
+            <h4 class="step-title">Diagnóstico Técnico</h4>
+            <p class="step-desc">Conexão com scanner computadorizado e inspeção visual detalhada nos componentes.</p>
+          </div>
+
+          <div class="process-step">
+            <div class="step-num">03</div>
+            <h4 class="step-title">Orçamento Pré-aprovado</h4>
+            <p class="step-desc">Enviamos fotos, vídeos e orçamento detalhado no WhatsApp antes de encostar qualquer chave.</p>
+          </div>
+
+          <div class="process-step">
+            <div class="step-num">04</div>
+            <h4 class="step-title">Execução Especializada</h4>
+            <p class="step-desc">Utilização de peças de 1ª linha recomendadas e torque conforme especificações do fabricante.</p>
+          </div>
+
+          <div class="process-step">
+            <div class="step-num">05</div>
+            <h4 class="step-title">Teste & Entrega Limpa</h4>
+            <p class="step-desc">Teste de rodagem e entrega do veículo revisado com laudo técnico e garantia do serviço.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Gallery Showcase
+         ========================================================================== -->
+    <section class="section" id="galeria">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Nossa Estrutura</span>
+          <h2 class="section-title">Tecnologia, organização e precisão mecânica</h2>
+          <p class="section-desc">Um espaço limpo e equipado para receber você e seu automóvel com o respeito que merecem.</p>
+        </div>
+
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <img src="assets/images/diagnostico.jpg" alt="Diagnóstico com scanner automotivo na Checkpoint Auto" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-tag">Tecnologia</span>
+              <div class="gallery-caption">Telemetria & Diagnóstico Computadorizado</div>
+            </div>
+          </div>
+
+          <div class="gallery-item">
+            <img src="assets/images/freios.jpg" alt="Instalação e manutenção de freios na Checkpoint Auto" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-tag">Segurança</span>
+              <div class="gallery-caption">Freios ABS, Discos e Pastilhas Cerâmicas</div>
+            </div>
+          </div>
+
+          <div class="gallery-item">
+            <img src="assets/images/motor.jpg" alt="Revisão e montagem de motor na oficina Checkpoint Auto" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-tag">Performance</span>
+              <div class="gallery-caption">Injeção Direta e Ajuste Fino de Motores</div>
+            </div>
+          </div>
+
+          <div class="gallery-item">
+            <img src="assets/images/hero.jpg" alt="Oficina mecânica moderna Checkpoint Auto em Osasco" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-tag">Estrutura</span>
+              <div class="gallery-caption">Elevadores e Ferramental de Precisão</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Interactive Simulator / Fast Quote
+         ========================================================================== -->
+    <section class="section" id="agendamento">
+      <div class="container">
+        <div class="calculator-card">
+          <div class="section-header" style="margin-bottom: 2.5rem;">
+            <span class="section-tag">Agilidade no Atendimento</span>
+            <h2 class="section-title" style="font-size: 2.1rem;">Simulador Rápido de Orçamento</h2>
+            <p class="section-desc">Selecione o serviço do seu interesse e gere um chamado pronto para envio no WhatsApp do Leo.</p>
+          </div>
+
+          <form id="quoteForm" class="calc-grid" onsubmit="return false;">
+            <div class="calc-inputs">
+              <div class="form-group">
+                <label for="clientName">Seu Nome:</label>
+                <input type="text" id="clientName" class="form-control" placeholder="Ex: Rodrigo Silva" required>
+              </div>
+
+              <div class="form-group">
+                <label for="carModel">Modelo do Veículo & Ano:</label>
+                <input type="text" id="carModel" class="form-control" placeholder="Ex: Honda Civic 2019 / Gol 1.6" required>
+              </div>
+
+              <div class="form-group">
+                <label for="serviceType">Serviço Principal:</label>
+                <select id="serviceType" class="form-control" required>
+                  <option value="Revisão Preventiva Geral">Revisão Preventiva Geral (Check-up)</option>
+                  <option value="Luz da Injeção Acesa / Scanner">Luz da Injeção Acesa / Diagnóstico Scanner</option>
+                  <option value="Limpeza de Bicos & Injeção">Limpeza de Bicos & Injeção Eletrônica</option>
+                  <option value="Freios (Pastilhas, Discos, Fluido)">Freios (Pastilhas, Discos, Ruídos ao Frear)</option>
+                  <option value="Suspensão & Barulhos">Suspensão, Amortecedores ou Estabilidade</option>
+                  <option value="Troca de Óleo e Filtros">Troca de Óleo e Filtros</option>
+                  <option value="Outro Serviço / Avaliação Geral">Outro Serviço / Avaliação Geral</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="clientObservation">Algum sintoma específico? (Opcional):</label>
+                <textarea id="clientObservation" class="form-control" rows="2" placeholder="Ex: Fazendo barulho metálico na roda direita ao frear..."></textarea>
+              </div>
+            </div>
+
+            <div class="calc-summary">
+              <div>
+                <div class="summary-title">Pré-visualização do Chamado:</div>
+                <div class="summary-preview" id="summaryPreview">
+                  "Olá Leo! Vim pelo site da Checkpoint Auto..."
+                </div>
+                <div style="font-size: 0.82rem; color: var(--text-dim); margin-bottom: 1rem;">
+                  ⏱️ Tempo médio de resposta: <strong>15 a 30 minutos</strong> no horário comercial.
+                </div>
+              </div>
+
+              <button type="button" class="btn btn-whatsapp" id="btnSendQuote" style="width: 100%;">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.274.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.099.824zm-3.423-14.416c-6.627 0-12 5.373-12 12 0 2.179.587 4.223 1.614 5.986l-1.614 5.842 6.007-1.576c1.701.929 3.649 1.458 5.723 1.458 6.627 0 12-5.373 12-12s-5.373-12-12-12z"/>
+                </svg>
+                <span>Enviar Orçamento no WhatsApp</span>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Testimonials
+         ========================================================================== -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Depoimentos</span>
+          <h2 class="section-title">O que diz quem confia seus carros ao Leo</h2>
+          <p class="section-desc">Clientes satisfeitos com a honestidade e qualidade técnica da Checkpoint Auto.</p>
+        </div>
+
+        <div class="testimonials-grid">
+          <div class="testimonial-card">
+            <div>
+              <div class="testimonial-stars">★★★★★</div>
+              <p class="testimonial-quote">
+                "Excelente mecânica em Osasco! O Leo colocou o scanner na minha frente, me explicou exatamente qual bico estava falhando e resolveu em poucas horas. Preço muito honesto."
+              </p>
+            </div>
+            <div class="testimonial-author">
+              <div class="author-avatar">MS</div>
+              <div>
+                <div class="author-name">Marcelo Santos</div>
+                <div class="author-car">Proprietário de VW Nivus TSI</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div>
+              <div class="testimonial-stars">★★★★★</div>
+              <p class="testimonial-quote">
+                "Fiz a revisão de freios e suspensão antes de viajar com a família para o litoral. O carro voltou firme, sem nenhum barulho e com laudo de tudo o que foi trocado. Recomendo de olhos fechados!"
+              </p>
+            </div>
+            <div class="testimonial-author">
+              <div class="author-avatar">FA</div>
+              <div>
+                <div class="author-name">Fernando Almeida</div>
+                <div class="author-car">Proprietário de Jeep Compass</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div>
+              <div class="testimonial-stars">★★★★★</div>
+              <p class="testimonial-quote">
+                "Difícil encontrar oficina que cumpra prazo e seja tão transparente. O Leo é pontual, educado e manja muito de motores modernos. Minha oficina de confiança permanente."
+              </p>
+            </div>
+            <div class="testimonial-author">
+              <div class="author-avatar">CL</div>
+              <div>
+                <div class="author-name">Camila Linhares</div>
+                <div class="author-car">Proprietária de Toyota Yaris</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Contact & Location Section
+         ========================================================================== -->
+    <section class="section" id="contato" style="background: rgba(13, 18, 30, 0.4);">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Localização & Contato</span>
+          <h2 class="section-title">Venha tomar um café e conferir seu carro</h2>
+          <p class="section-desc">Atendimento ágil para motoristas de Osasco e toda a Grande São Paulo.</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-card">
+            <h3 style="font-family: var(--font-heading); font-size: 1.5rem; margin-bottom: 2rem;">Canais de Atendimento</h3>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <!-- Phone / WhatsApp Icon -->
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                </svg>
+              </div>
+              <div class="contact-info">
+                <h4>WhatsApp Direto (Leo):</h4>
+                <a href="https://wa.me/5511959183854" target="_blank" rel="noopener noreferrer">
+                  <strong>(11) 95918-3854</strong>
+                </a>
+                <div>
+                  <span class="hours-badge">● Aberto p/ Agendamentos</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <!-- Instagram Icon -->
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                </svg>
+              </div>
+              <div class="contact-info">
+                <h4>Instagram Oficial:</h4>
+                <a href="https://instagram.com/checkpointauto.car" target="_blank" rel="noopener noreferrer">
+                  <strong>@checkpointauto.car</strong>
+                </a>
+                <p>Veja stories de serviços diários e antes/depois</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <!-- Clock Icon -->
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polyline points="12 6 12 12 16 14"></polyline>
+                </svg>
+              </div>
+              <div class="contact-info">
+                <h4>Horário de Funcionamento:</h4>
+                <p>Segunda a Sexta: <strong>08:00 às 18:00</strong></p>
+                <p>Sábados: <strong>08:00 às 12:00</strong></p>
+              </div>
+            </div>
+
+            <div class="contact-item" style="margin-bottom: 0;">
+              <div class="contact-icon">
+                <!-- Map Pin Icon -->
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+              </div>
+              <div class="contact-info">
+                <h4>Cidade / Região:</h4>
+                <p><strong>Osasco – São Paulo, SP</strong></p>
+                <p>Fácil acesso pelas principais vias e rodovias da região</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="map-card">
+            <div>
+              <h3 style="font-family: var(--font-heading); font-size: 1.5rem; margin-bottom: 1rem;">Como Chegar</h3>
+              <p style="color: var(--text-muted); font-size: 0.95rem; margin-bottom: 1.5rem;">
+                Abra diretamente no seu aplicativo de navegação GPS favorito para traçar a melhor rota até a Checkpoint Auto.
+              </p>
+
+              <div class="map-placeholder">
+                <div class="map-pin-icon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                </div>
+                <div>
+                  <strong style="color: #ffffff; display: block;">Checkpoint Auto Car</strong>
+                  <span>Osasco, SP &bull; Atendimento com Hora Marcada</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="map-actions">
+              <a href="https://maps.google.com/?q=Checkpoint+Auto+Osasco" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="flex: 1;">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polygon points="3 11 22 2 13 21 11 13 3 11"></polygon>
+                </svg>
+                <span>Google Maps</span>
+              </a>
+              <a href="https://waze.com/ul?q=Osasco" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="flex: 1;">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <path d="M12 8v4l3 3"></path>
+                </svg>
+                <span>Waze</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       Footer
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="logo">
+            <div class="logo-badge">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <path d="m15 5 4 4"></path>
+                <path d="M13 7 8.7 2.7a2.41 2.41 0 0 0-3.4 0L2.7 5.3a2.41 2.41 0 0 0 0 3.4L7 13"></path>
+                <path d="m2 22 5.5-1.5L21.1 6.9a2.4 2.4 0 0 0 0-3.4l-.6-.6a2.4 2.4 0 0 0-3.4 0L3.5 16.5 2 22z"></path>
+              </svg>
+            </div>
+            <div class="logo-text">
+              CHECKPOINT<span>AUTO</span>
+            </div>
+          </div>
+          <p>
+            Oficina mecânica especializada em Osasco - SP. Cuidado de mestre, diagnóstico de alta precisão e compromisso absoluto com a sua segurança.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h5>Navegação Rápida</h5>
+          <ul class="footer-links">
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#sobre">A Oficina</a></li>
+            <li><a href="#servicos">Nossos Serviços</a></li>
+            <li><a href="#galeria">Estrutura</a></li>
+            <li><a href="#agendamento">Simular Orçamento</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Redes & Contato</h5>
+          <ul class="footer-links">
+            <li><a href="https://wa.me/5511959183854" target="_blank" rel="noopener noreferrer">WhatsApp: (11) 95918-3854</a></li>
+            <li><a href="https://instagram.com/checkpointauto.car" target="_blank" rel="noopener noreferrer">Instagram: @checkpointauto.car</a></li>
+            <li><span style="color: var(--text-dim);">Osasco - SP</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 Checkpoint Auto Car. Todos os direitos reservados.</div>
+        <div>Desenvolvido com excelência técnica para pré-visualização comercial.</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       Floating WhatsApp Button
+       ========================================================================== -->
+  <a href="https://wa.me/5511959183854?text=Ol%C3%A1%20Leo!%20Vim%20pelo%20site%20da%20Checkpoint%20Auto%20e%20gostaria%20de%20fazer%20um%20or%C3%A7amento." target="_blank" rel="noopener noreferrer" class="float-whatsapp" id="btnFloatWhatsApp" aria-label="Falar com Leo no WhatsApp">
+    <div class="float-radar"></div>
+    <div class="float-whatsapp-icon">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.274.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.099.824zm-3.423-14.416c-6.627 0-12 5.373-12 12 0 2.179.587 4.223 1.614 5.986l-1.614 5.842 6.007-1.576c1.701.929 3.649 1.458 5.723 1.458 6.627 0 12-5.373 12-12s-5.373-12-12-12z"/>
+      </svg>
+    </div>
+    <span>WhatsApp Direto</span>
+  </a>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+</html>
